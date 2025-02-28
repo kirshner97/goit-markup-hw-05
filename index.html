@@ -475,5 +475,91 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-overflow is-open">
+      <div class="modal-form">
+        <button type="button" class="modal-btn-cls">
+          <svg width="8" height="8" class="modal-btn-cls-icon">
+            <use href="./images/icons.svg#icon-close-btm"></use>
+          </svg>
+        </button>
+        <p class="form-text">Leave your contacts and we will call you back</p>
+        <form class="form">
+          <div class="form-ctn-block">
+            <label for="user-name" class="form-label">Name</label>
+            <div class="form-ctn-block-icon">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="form-input"
+                required
+              />
+              <svg width="12" height="12" class="form-svg">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-ctn-block">
+            <label for="user-phone" class="form-label">Phone</label>
+            <div class="form-ctn-block-icon">
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                class="form-input"
+                required
+              />
+              <svg width="12" height="12" class="form-svg">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-ctn-block">
+            <label for="user-mail" class="form-label">Email</label>
+            <div class="form-ctn-block-icon">
+              <input
+                type="email"
+                name="user-mail"
+                id="user-mail"
+                class="form-input"
+                required
+              />
+              <svg width="12" height="12" class="form-svg">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <label for="form-comment" class="form-label">Comment</label>
+            <textarea
+              name="form-comment"
+              id="form-comment"
+              class="form-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="form-checkbox-ctn">
+            <input
+              type="checkbox"
+              name="form-checkbox"
+              class="checkbox visiblety-hidden"
+              id="form-checkbox"
+            />
+            <label for="form-checkbox" class="form-label">
+              <span class="custom-checkbox">
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#icon-cheked"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button type="submit" class="form-btn-submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
