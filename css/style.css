@@ -692,6 +692,10 @@ input {
   border: 1px solid #4d5ae5;
 }
 
+.form-textarea-ctn {
+  margin-bottom: 16px;
+}
+
 .form-textarea {
   font-size: 12px;
   line-height: 1.17;
