@@ -70,7 +70,7 @@
       <!-- Переваги -->
       <section class="advantages">
         <div class="container">
-          <h2 class="advantages-title visiblety-hidden">Advantages</h2>
+          <h2 class="advantages-title visually-hidden">Advantages</h2>
           <ul class="adv-list">
             <li class="adv-item">
               <div class="adv-icon">
@@ -518,7 +518,7 @@
                 class="form-input"
                 required
               />
-              <svg width="12" height="12" class="form-svg">
+              <svg width="18" height="24" class="form-svg">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </div>
@@ -533,7 +533,7 @@
                 class="form-input"
                 required
               />
-              <svg width="12" height="12" class="form-svg">
+              <svg width="18" height="24" class="form-svg">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -548,16 +548,16 @@
                 class="form-input"
                 required
               />
-              <svg width="12" height="12" class="form-svg">
+              <svg width="18" height="24" class="form-svg">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div>
-            <label for="form-comment" class="form-label">Comment</label>
+            <label for="user-comment" class="form-label">Comment</label>
             <textarea
-              name="form-comment"
-              id="form-comment"
+              name="user-comment"
+              id="user-comment"
               class="form-textarea"
               placeholder="Text input"
             ></textarea>
@@ -565,18 +565,19 @@
           <div class="form-checkbox-ctn">
             <input
               type="checkbox"
-              name="form-checkbox"
-              class="checkbox visiblety-hidden"
-              id="form-checkbox"
+              name="user-privacy"
+              class="checkbox visually-hidden"
+              id="user-privacy"
+              value="true"
             />
-            <label for="form-checkbox" class="form-label">
+            <label for="user-privacy" class="form-label">
               <span class="custom-checkbox">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-cheked"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a href="" class="form-label-link">Privacy Policy</a>
             </label>
           </div>
 
